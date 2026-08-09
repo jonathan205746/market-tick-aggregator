@@ -15,7 +15,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: bootstrap-topics
-          image: 399400614342.dkr.ecr.us-east-1.amazonaws.com/market-tick-loadtest:v8
+          image: 399400614342.dkr.ecr.us-east-1.amazonaws.com/market-tick-loadtest:v10
           command: ["./loadtest"]
           args: ["-create-topics"]
           envFrom:
